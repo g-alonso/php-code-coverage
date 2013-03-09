@@ -9,9 +9,9 @@
  * @copyright   2013 Gabriel Alonso.
  * 
  */
-class Map {
+class PHP_CodeCoverage_Report_Map {
 
-    public function process(\PHP_CodeCoverage $coverage, $target = NULL, $name = NULL) {
+    public function process(PHP_CodeCoverage $coverage, $target = NULL, $name = NULL) {
 
         $aCoverage = array(
             'generated' => (int) $_SERVER['REQUEST_TIME']
@@ -25,7 +25,7 @@ class Map {
         foreach ($report as $item) {
             $namespace = 'global';
 
-            if (!$item instanceof \PHP_CodeCoverage_Report_Node_File) {
+            if (!$item instanceof PHP_CodeCoverage_Report_Node_File) {
                 continue;
             }
 
