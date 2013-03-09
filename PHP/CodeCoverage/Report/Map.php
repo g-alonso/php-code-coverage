@@ -5,7 +5,6 @@
  *
  * @category    PHP
  * @package     CodeCoverage
- * @subpackage  Command
  * @author      gbr.alonso@gmail.com <gbr.alonso@gmail.com>
  * @copyright   2013 Gabriel Alonso.
  * 
